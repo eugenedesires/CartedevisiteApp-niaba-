@@ -1,0 +1,52 @@
+<linearLayout
+    xmlns:android="http//schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="Vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="f5f5f5">
+
+    <imageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="Vertical"
+        android:src="@drawable/gojo.jpg"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="profile Picture"/>
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niaba Eugène Désiré"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:texttyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Développeur d'application"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:niabaeugenedesire@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:gravity="center" />
+</linearLayout>
+
+
+
+
